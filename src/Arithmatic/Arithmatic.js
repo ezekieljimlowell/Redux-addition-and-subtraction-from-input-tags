@@ -41,12 +41,12 @@ const Arithmatic = () => {
     }
 
     let viewAdd = useSelector((state) => {
+        console.log(state)
         return state["additionResult"]
     });
 
-    console.log(viewAdd);
-
     let viewSubtract = useSelector((state) => {
+        console.log(state);
         return state["subtractResult"];
     });
 
